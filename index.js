@@ -32,22 +32,19 @@ return false
 
   }
 }*/
-
-/*function hasTargetSum(array, target) {
-  for(i = 0; i < array.length; i++) {
-      for(j = i+1; j < array.length; j++) {
-          if (target === array[i] + array[j]) {
-            return true
-          } else {
-            return false
-          }
+/*Another working solution:
+function hasTargetSum(array, target) {
+  for( let i = 0; i < array.length; i++) {
+      for( let j = i+1; j < array.length; j++) {
+          if (target === array[i] + array[j]) return true     
       }
   }
+  return false
 }
-
-
-  Write the Big O time complexity of your function here
 */
+
+ // Write the Big O time complexity of your function here
+
 
 /* 
   Add your pseudocode here:
